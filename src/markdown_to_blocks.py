@@ -54,9 +54,8 @@ def block_to_html_node(block: str) -> HTMLNode:
     btype: BlockType = block_to_block_type(block)
     match btype:
         case BlockType.PARAGRAPH:
+            block = block.replace("\n", " ")
             children: list = text_to_children(block)
-            for child in children:
-                child.value = child.value.replace("\n", " ")
             return ParentNode("p", children, None)
         case BlockType.HEADING:
             h_count = 0

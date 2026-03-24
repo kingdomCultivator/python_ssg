@@ -1,0 +1,373 @@
+
+CopyStatic
+copying files from /home/zach/workspace/boot.dev/zachary_gross/python_ssg/static to /home/zach/workspace/boot.dev/zachary_gross/python_ssg/public
+
+moving into directory /home/zach/workspace/boot.dev/zachary_gross/python_ssg/public/images
+
+CopyStatic
+copying files from /home/zach/workspace/boot.dev/zachary_gross/python_ssg/static/images to /home/zach/workspace/boot.dev/zachary_gross/python_ssg/public/images
+
+copying file /home/zach/workspace/boot.dev/zachary_gross/python_ssg/static/images/tolkien.png to /home/zach/workspace/boot.dev/zachary_gross/python_ssg/public/images/tolkien.png
+copying file /home/zach/workspace/boot.dev/zachary_gross/python_ssg/static/images/glorfindel.png to /home/zach/workspace/boot.dev/zachary_gross/python_ssg/public/images/glorfindel.png
+copying file /home/zach/workspace/boot.dev/zachary_gross/python_ssg/static/images/rivendell.png to /home/zach/workspace/boot.dev/zachary_gross/python_ssg/public/images/rivendell.png
+copying file /home/zach/workspace/boot.dev/zachary_gross/python_ssg/static/images/tom.png to /home/zach/workspace/boot.dev/zachary_gross/python_ssg/public/images/tom.png
+copying file /home/zach/workspace/boot.dev/zachary_gross/python_ssg/static/index.css to /home/zach/workspace/boot.dev/zachary_gross/python_ssg/public/index.css
+Generating page from content/index.md to public/content/index.html using template.html
+
+text node:
+TextNode(JRR Tolkien sitting, IMAGE, /images/tolkien.png)
+
+text node:
+TextNode(Here's the deal, , TEXT, None)
+
+text node:
+TextNode(I like Tolkien, BOLD, None)
+
+text node:
+TextNode(., TEXT, None)
+
+text node:
+TextNode(Why Glorfindel is More Impressive than Legolas, LINK, /blog/glorfindel)
+
+text node:
+TextNode(Why Tom Bombadil Was a Mistake, LINK, /blog/tom)
+
+text node:
+TextNode(The Unparalleled Majesty of "The Lord of the Rings", LINK, /blog/majesty)
+
+text node:
+TextNode(You can spend years studying the legendarium and still not understand its depths, TEXT, None)
+
+text node:
+TextNode(It can be enjoyed by children and adults alike, TEXT, None)
+
+text node:
+TextNode(Disney , TEXT, None)
+
+text node:
+TextNode(didn't ruin it, ITALIC, None)
+
+text node:
+TextNode( (okay, but Amazon might have), TEXT, None)
+
+text node:
+TextNode(It created an entirely new genre of fantasy, TEXT, None)
+
+text node:
+TextNode(Gandalf, TEXT, None)
+
+text node:
+TextNode(Bilbo, TEXT, None)
+
+text node:
+TextNode(Sam, TEXT, None)
+
+text node:
+TextNode(Glorfindel, TEXT, None)
+
+text node:
+TextNode(Galadriel, TEXT, None)
+
+text node:
+TextNode(Elrond, TEXT, None)
+
+text node:
+TextNode(Thorin, TEXT, None)
+
+text node:
+TextNode(Sauron, TEXT, None)
+
+text node:
+TextNode(Aragorn, TEXT, None)
+
+text node:
+TextNode(Here's what , TEXT, None)
+
+text node:
+TextNode(elflang, CODE, None)
+
+text node:
+TextNode( looks like (the perfect coding language):, TEXT, None)
+
+text node:
+TextNode(Want to get in touch? , TEXT, None)
+
+text node:
+TextNode(Contact me here, LINK, /contact)
+
+text node:
+TextNode(., TEXT, None)
+
+text node:
+TextNode(This site was generated with a custom-built , TEXT, None)
+
+text node:
+TextNode(static site generator, LINK, https://www.boot.dev/courses/build-static-site-generator-python)
+
+text node:
+TextNode( from the course on , TEXT, None)
+
+text node:
+TextNode(Boot.dev, LINK, https://www.boot.dev)
+
+text node:
+TextNode(., TEXT, None)
+html string after markdown to node:
+
+
+ParentNode(tag=div, children=[
+    LeafNode(tag=h1, value=Tolkien Fan Club, props=None), 
+ParentNode(tag=p, children=[
+    LeafNode(tag=img, value=, props={'src': '/images/tolkien.png', 'alt': 'JRR Tolkien sitting'})], props=None), 
+ParentNode(tag=p, children=[
+    LeafNode(tag=None, value=Here's the deal, , props=None), 
+    LeafNode(tag=b, value=I like Tolkien, props=None), 
+    LeafNode(tag=None, value=., props=None)], props=None), 
+ParentNode(tag=blockquote, children=[
+    LeafNode(tag=None, value="I am in fact a Hobbit in all but size."<br><br>-- J.R.R. Tolkien, props=None)], props=None), 
+    LeafNode(tag=h2, value=Blog posts, props=None), 
+ParentNode(tag=ul, children=[
+ParentNode(tag=li, children=[
+    LeafNode(tag=a, value=Why Glorfindel is More Impressive than Legolas, props={'href': '/blog/glorfindel'})], props=None), 
+ParentNode(tag=li, children=[
+    LeafNode(tag=a, value=Why Tom Bombadil Was a Mistake, props={'href': '/blog/tom'})], props=None), 
+ParentNode(tag=li, children=[
+    LeafNode(tag=a, value=The Unparalleled Majesty of "The Lord of the Rings", props={'href': '/blog/majesty'})], props=None)], props=None), 
+    LeafNode(tag=h2, value=Reasons I like Tolkien, props=None), 
+ParentNode(tag=ul, children=[
+ParentNode(tag=li, children=[
+    LeafNode(tag=None, value=You can spend years studying the legendarium and still not understand its depths, props=None)], props=None), 
+ParentNode(tag=li, children=[
+    LeafNode(tag=None, value=It can be enjoyed by children and adults alike, props=None)], props=None), 
+ParentNode(tag=li, children=[
+    LeafNode(tag=None, value=Disney , props=None), 
+    LeafNode(tag=i, value=didn't ruin it, props=None), 
+    LeafNode(tag=None, value= (okay, but Amazon might have), props=None)], props=None), 
+ParentNode(tag=li, children=[
+    LeafNode(tag=None, value=It created an entirely new genre of fantasy, props=None)], props=None)], props=None), 
+    LeafNode(tag=h2, value=My favorite characters (in order), props=None), 
+ParentNode(tag=ol, children=[
+ParentNode(tag=li, children=[
+    LeafNode(tag=None, value=Gandalf, props=None)], props=None), 
+ParentNode(tag=li, children=[
+    LeafNode(tag=None, value=Bilbo, props=None)], props=None), 
+ParentNode(tag=li, children=[
+    LeafNode(tag=None, value=Sam, props=None)], props=None), 
+ParentNode(tag=li, children=[
+    LeafNode(tag=None, value=Glorfindel, props=None)], props=None), 
+ParentNode(tag=li, children=[
+    LeafNode(tag=None, value=Galadriel, props=None)], props=None), 
+ParentNode(tag=li, children=[
+    LeafNode(tag=None, value=Elrond, props=None)], props=None), 
+ParentNode(tag=li, children=[
+    LeafNode(tag=None, value=Thorin, props=None)], props=None), 
+ParentNode(tag=li, children=[
+    LeafNode(tag=None, value=Sauron, props=None)], props=None), 
+ParentNode(tag=li, children=[
+    LeafNode(tag=None, value=Aragorn, props=None)], props=None)], props=None), 
+ParentNode(tag=p, children=[
+    LeafNode(tag=None, value=Here's what , props=None), 
+    LeafNode(tag=code, value=elflang, props=None), 
+    LeafNode(tag=None, value= looks like (the perfect coding language):, props=None)], props=None), 
+ParentNode(tag=pre, children=[
+    LeafNode(tag=code, value=func main(){
+    fmt.Println("Aiya, Ambar!")
+}
+, props=None)], props=None), 
+ParentNode(tag=p, children=[
+    LeafNode(tag=None, value=Want to get in touch? , props=None), 
+    LeafNode(tag=a, value=Contact me here, props={'href': '/contact'}), 
+    LeafNode(tag=None, value=., props=None)], props=None), 
+ParentNode(tag=p, children=[
+    LeafNode(tag=None, value=This site was generated with a custom-built , props=None), 
+    LeafNode(tag=a, value=static site generator, props={'href': 'https://www.boot.dev/courses/build-static-site-generator-python'}), 
+    LeafNode(tag=None, value= from the course on , props=None), 
+    LeafNode(tag=a, value=Boot.dev, props={'href': 'https://www.boot.dev'}), 
+    LeafNode(tag=None, value=., props=None)], props=None)], props=None)
+Generating page from content/blog/tom/index.md to public/content/blog/tom/index.html using template.html
+
+text node:
+TextNode(< Back Home, LINK, /)
+
+text node:
+TextNode(Tom Bombadil image, IMAGE, /images/tom.png)
+
+text node:
+TextNode(In the vast and intricate weave of J.R.R. Tolkien's legendarium, amidst heroes of renown and tales of high adventure, there exists a curious anomaly: Tom Bombadil. This peculiar figure, whimsical and unfettered by the weight of Middle-earth's burdens, has long been a point of contention among scholars and enthusiasts. While his character exudes charm and mystery, I, as an ancient , TEXT, None)
+
+text node:
+TextNode(Archmage, BOLD, None)
+
+text node:
+TextNode(, must assert that his inclusion in , TEXT, None)
+
+text node:
+TextNode(The Lord of the Rings, ITALIC, None)
+
+text node:
+TextNode( was, unfortunately, a narrative misstep., TEXT, None)
+
+text node:
+TextNode(, TEXT, None)
+
+text node:
+TextNode(An unpopular opinion, I know., ITALIC, None)
+
+text node:
+TextNode(, TEXT, None)
+
+text node:
+TextNode(Having traversed the corridors of Tolkien's sprawling world, immersed in its lore, I have come to understand the impact of cohesion and momentum in storytelling. Thus, I find myself compelled to examine Tom Bombadil's role and question the necessity of his presence within the epic saga. As we embark on this critical inquiry, let us consider the reasons why Old Tom's playful presence may be seen as a disruptive force., TEXT, None)
+
+text node:
+TextNode(Tolkien's epic is known for its meticulous pacing and the gravity of its themes. Enter Tom Bombadil—a character whose frivolity and detachment from worldly events create a jarring contrast within the otherwise cohesive narrative:, TEXT, None)
+
+text node:
+TextNode(, TEXT, None)
+
+text node:
+TextNode(An Unnecessary Interlude, BOLD, None)
+
+text node:
+TextNode(: The encounter with Tom, while quaint and endearing, serves as a temporal diversion that detracts from the urgency of the Fellowship's quest., TEXT, None)
+
+text node:
+TextNode(, TEXT, None)
+
+text node:
+TextNode(An Outlier in Purpose, BOLD, None)
+
+text node:
+TextNode(: His escapades, while rich in mirth, add little to the central narrative, raising questions about their relevance in the grand design of Middle-earth., TEXT, None)
+
+text node:
+TextNode(In a tale defined by intricate connections and deeply rooted mythology, Bombadil's inexplicable nature poses a challenge to the narrative's internal logic:, TEXT, None)
+
+text node:
+TextNode(, TEXT, None)
+
+text node:
+TextNode(A Mystery Without Resolution, BOLD, None)
+
+text node:
+TextNode(: Unlike other enigmatic figures whose backstories enrich the tapestry, Tom remains enigmatic, shrouded in mystery that neither advances the plot nor deepens the lore., TEXT, None)
+
+text node:
+TextNode(, TEXT, None)
+
+text node:
+TextNode(A Departure from Tone, BOLD, None)
+
+text node:
+TextNode(: His presence, filled with lighthearted songs and whimsical antics, contrasts sharply with the solemnity and tension that define the rest of the saga., TEXT, None)
+
+text node:
+TextNode(Tom Bombadil's inclusion inadvertently shifts focus from the pressing matters of Middle-earth, introducing themes that sit uneasily with the narrative's core:, TEXT, None)
+
+text node:
+TextNode(, TEXT, None)
+
+text node:
+TextNode(A Shift in Focus, BOLD, None)
+
+text node:
+TextNode(: His carefree demeanor and ability to withhold the power of the One Ring, while intriguing, distract from the overarching themes of sacrifice and moral complexity., TEXT, None)
+
+text node:
+TextNode(, TEXT, None)
+
+text node:
+TextNode(A Misstep in Continuity, BOLD, None)
+
+text node:
+TextNode(: His segment, charming as it may be, disrupts the journey's continuous build-up towards the looming confrontation with darkness., TEXT, None)
+
+text node:
+TextNode(As we ponder the manifold wonders and intricacies of Tolkien's world, it is evident that Tom Bombadil, while delightfully unique, was a narrative anomaly—a whimsical reflection in the mirror of Middle-earth's grand narrative. While his character captivates with a certain mystique, it answers questions that were never asked, leaving readers with more enigmas than revelations., TEXT, None)
+
+text node:
+TextNode(In conclusion, as one who has explored the mythic past of Middle-earth and sought coherence in its storied legacy, I propose that Tom Bombadil, for all his merriment and enigma, was a divergence from the tale's destined path—a curiosity that, while endearing to some, stands as a reminder that even in the most meticulously crafted worlds, not all paths lead to the fulfillment of the quest., TEXT, None)
+
+text node:
+TextNode(Thus, let us bid farewell to Old Tom with a final song, recognizing both his charm and the discord his presence sowed. For within the hallowed pages of Tolkien's masterpiece, every beat must resonate with purpose, lest the harmony of the tale be lost to idle whimsy., TEXT, None)
+html string after markdown to node:
+
+
+ParentNode(tag=div, children=[
+    LeafNode(tag=h1, value=Why Tom Bombadil Was a Mistake, props=None), 
+ParentNode(tag=p, children=[
+    LeafNode(tag=a, value=< Back Home, props={'href': '/'})], props=None), 
+ParentNode(tag=p, children=[
+    LeafNode(tag=img, value=, props={'src': '/images/tom.png', 'alt': 'Tom Bombadil image'})], props=None), 
+ParentNode(tag=blockquote, children=[
+    LeafNode(tag=None, value="Old Tom Bombadil is a merry fellow; bright blue his jacket is, and his boots are yellow. Alas, his merry song may not belong in this plot's prolonged confluence.", props=None)], props=None), 
+ParentNode(tag=p, children=[
+    LeafNode(tag=None, value=In the vast and intricate weave of J.R.R. Tolkien's legendarium, amidst heroes of renown and tales of high adventure, there exists a curious anomaly: Tom Bombadil. This peculiar figure, whimsical and unfettered by the weight of Middle-earth's burdens, has long been a point of contention among scholars and enthusiasts. While his character exudes charm and mystery, I, as an ancient , props=None), 
+    LeafNode(tag=b, value=Archmage, props=None), 
+    LeafNode(tag=None, value=, must assert that his inclusion in , props=None), 
+    LeafNode(tag=i, value=The Lord of the Rings, props=None), 
+    LeafNode(tag=None, value= was, unfortunately, a narrative misstep., props=None)], props=None), 
+ParentNode(tag=p, children=[
+    LeafNode(tag=None, value=, props=None), 
+    LeafNode(tag=i, value=An unpopular opinion, I know., props=None), 
+    LeafNode(tag=None, value=, props=None)], props=None), 
+    LeafNode(tag=h2, value=Introduction, props=None), 
+ParentNode(tag=p, children=[
+    LeafNode(tag=None, value=Having traversed the corridors of Tolkien's sprawling world, immersed in its lore, I have come to understand the impact of cohesion and momentum in storytelling. Thus, I find myself compelled to examine Tom Bombadil's role and question the necessity of his presence within the epic saga. As we embark on this critical inquiry, let us consider the reasons why Old Tom's playful presence may be seen as a disruptive force., props=None)], props=None), 
+    LeafNode(tag=h2, value=An Intriguing Yet Disjointed Figure, props=None), 
+    LeafNode(tag=h3, value=A Divergence from Narrative Flow, props=None), 
+ParentNode(tag=p, children=[
+    LeafNode(tag=None, value=Tolkien's epic is known for its meticulous pacing and the gravity of its themes. Enter Tom Bombadil—a character whose frivolity and detachment from worldly events create a jarring contrast within the otherwise cohesive narrative:, props=None)], props=None), 
+ParentNode(tag=ol, children=[
+ParentNode(tag=li, children=[
+    LeafNode(tag=None, value=, props=None), 
+    LeafNode(tag=b, value=An Unnecessary Interlude, props=None), 
+    LeafNode(tag=None, value=: The encounter with Tom, while quaint and endearing, serves as a temporal diversion that detracts from the urgency of the Fellowship's quest., props=None)], props=None), 
+ParentNode(tag=li, children=[
+    LeafNode(tag=None, value=, props=None), 
+    LeafNode(tag=b, value=An Outlier in Purpose, props=None), 
+    LeafNode(tag=None, value=: His escapades, while rich in mirth, add little to the central narrative, raising questions about their relevance in the grand design of Middle-earth., props=None)], props=None)], props=None), 
+    LeafNode(tag=h2, value=An Enigma that Remains Unresolved, props=None), 
+    LeafNode(tag=h3, value=A Break from Coherence, props=None), 
+ParentNode(tag=p, children=[
+    LeafNode(tag=None, value=In a tale defined by intricate connections and deeply rooted mythology, Bombadil's inexplicable nature poses a challenge to the narrative's internal logic:, props=None)], props=None), 
+ParentNode(tag=ul, children=[
+ParentNode(tag=li, children=[
+    LeafNode(tag=None, value=, props=None), 
+    LeafNode(tag=b, value=A Mystery Without Resolution, props=None), 
+    LeafNode(tag=None, value=: Unlike other enigmatic figures whose backstories enrich the tapestry, Tom remains enigmatic, shrouded in mystery that neither advances the plot nor deepens the lore., props=None)], props=None), 
+ParentNode(tag=li, children=[
+    LeafNode(tag=None, value=, props=None), 
+    LeafNode(tag=b, value=A Departure from Tone, props=None), 
+    LeafNode(tag=None, value=: His presence, filled with lighthearted songs and whimsical antics, contrasts sharply with the solemnity and tension that define the rest of the saga., props=None)], props=None)], props=None), 
+ParentNode(tag=pre, children=[
+    LeafNode(tag=code, value=print("Tom")
+print("Bombadil")
+print("A")
+print("Mystery")
+, props=None)], props=None), 
+    LeafNode(tag=h2, value=A Theme of **Disruption**, props=None), 
+    LeafNode(tag=h3, value=An Element of Distraction, props=None), 
+ParentNode(tag=p, children=[
+    LeafNode(tag=None, value=Tom Bombadil's inclusion inadvertently shifts focus from the pressing matters of Middle-earth, introducing themes that sit uneasily with the narrative's core:, props=None)], props=None), 
+ParentNode(tag=ul, children=[
+ParentNode(tag=li, children=[
+    LeafNode(tag=None, value=, props=None), 
+    LeafNode(tag=b, value=A Shift in Focus, props=None), 
+    LeafNode(tag=None, value=: His carefree demeanor and ability to withhold the power of the One Ring, while intriguing, distract from the overarching themes of sacrifice and moral complexity., props=None)], props=None), 
+ParentNode(tag=li, children=[
+    LeafNode(tag=None, value=, props=None), 
+    LeafNode(tag=b, value=A Misstep in Continuity, props=None), 
+    LeafNode(tag=None, value=: His segment, charming as it may be, disrupts the journey's continuous build-up towards the looming confrontation with darkness., props=None)], props=None)], props=None), 
+    LeafNode(tag=h2, value=Conclusion, props=None), 
+ParentNode(tag=p, children=[
+    LeafNode(tag=None, value=As we ponder the manifold wonders and intricacies of Tolkien's world, it is evident that Tom Bombadil, while delightfully unique, was a narrative anomaly—a whimsical reflection in the mirror of Middle-earth's grand narrative. While his character captivates with a certain mystique, it answers questions that were never asked, leaving readers with more enigmas than revelations., props=None)], props=None), 
+ParentNode(tag=p, children=[
+    LeafNode(tag=None, value=In conclusion, as one who has explored the mythic past of Middle-earth and sought coherence in its storied legacy, I propose that Tom Bombadil, for all his merriment and enigma, was a divergence from the tale's destined path—a curiosity that, while endearing to some, stands as a reminder that even in the most meticulously crafted worlds, not all paths lead to the fulfillment of the quest., props=None)], props=None), 
+ParentNode(tag=p, children=[
+    LeafNode(tag=None, value=Thus, let us bid farewell to Old Tom with a final song, recognizing both his charm and the discord his presence sowed. For within the hallowed pages of Tolkien's masterpiece, every beat must resonate with purpose, lest the harmony of the tale be lost to idle whimsy., props=None)], props=None)], props=None)
+
+    LeafNode(tag=None, value=, props=None)
+Serving HTTP on 0.0.0.0 port 8888 (http://0.0.0.0:8888/) ...
+
+Keyboard interrupt received, exiting.

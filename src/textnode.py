@@ -61,6 +61,8 @@ def split_nodes_delimiter(
                 raise Exception("Invalid markdown: unmatched delimiters")
             else:
                 for i in range(len(hopper)):
+                    if hopper[i] == "":
+                        continue
                     if i == 0 or i % 2 == 0:
                         output_nodes.append(TextNode(hopper[i], TextType.TEXT))
                     else:

@@ -51,6 +51,7 @@ class LeafNode(HTMLNode):
         if self.tag == "img":
             return f"<{self.tag}{self.props_to_html()}>"
         elif not self.value:
+            print(self.__repr__())
             raise ValueError("All leaf nodes must have a value")
         elif not self.tag:
             return self.value

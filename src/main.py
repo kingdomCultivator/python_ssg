@@ -46,7 +46,7 @@ def generate_page(from_path, template_path, dest_path):
         markdown = from_file.read()
         with open(template_path) as template_file:
             html_string = markdown_to_html_node(markdown)
-            print(f"html string after markdown to node:\n\n{html_string}")
+            # print(f"html string after markdown to node:\n\n{html_string}")
             html_string = html_string.to_html()
             title = extract_title(markdown)
             template = template_file.read()
@@ -63,6 +63,7 @@ def generate_pages_recursive(dir_path_content, template_path, dest_dir):
         from_path = os.path.join(dir_path_content, filename)
         dest_path = os.path.join(dest_dir, from_path)
         if os.path.isfile(from_path):
+            dest_path = dest_path.replace("content/", "")
             if from_path.endswith(".md"):
                 dest_path = dest_path.replace(".md", ".html")
                 generate_page(from_path, template_path, dest_path)

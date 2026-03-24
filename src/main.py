@@ -1,10 +1,14 @@
 # main.py
-
+import sys
 import os
 import shutil
-
 from markdown_to_blocks import markdown_to_html_node
-from textnode import TextNode, TextType
+
+basepath = "/"
+if len(sys.argv) > 1:
+    basepath = sys.argv[1]
+
+# from textnode import TextNode, TextType
 
 
 def copy_static(src, dest):
@@ -40,7 +44,7 @@ def extract_title(markdown: str):
         raise Exception("Markdown file must begin with a heading")
 
 
-def generate_page(from_path, template_path, dest_path):
+def generate_page(from_path, template_path, dest_path, basepath):
     print(f"Generating page from {from_path} to {dest_path} using {template_path}")
     with open(from_path) as from_file:
         markdown = from_file.read()
@@ -50,15 +54,18 @@ def generate_page(from_path, template_path, dest_path):
             html_string = html_string.to_html()
             title = extract_title(markdown)
             template = template_file.read()
-            output_string = template.replace("{{ Title }}", title).replace(
-                "{{ Content }}", html_string
+            output_string = (
+                template.replace("{{ Title }}", title)
+                .replace("{{ Content }}", html_string)
+                .replace('href="/', f'href="{basepath}')
+                .replace('src="/', f'src="{basepath}')
             )
             os.makedirs(os.path.dirname(dest_path), exist_ok=True)
             with open(dest_path, mode="x") as new_file:
                 new_file.write(output_string)
 
 
-def generate_pages_recursive(dir_path_content, template_path, dest_dir):
+def generate_pages_recursive(dir_path_content, template_path, dest_dir, basepath):
     for filename in os.listdir(dir_path_content):
         from_path = os.path.join(dir_path_content, filename)
         dest_path = os.path.join(dest_dir, from_path)
@@ -66,14 +73,14 @@ def generate_pages_recursive(dir_path_content, template_path, dest_dir):
             dest_path = dest_path.replace("content/", "")
             if from_path.endswith(".md"):
                 dest_path = dest_path.replace(".md", ".html")
-                generate_page(from_path, template_path, dest_path)
+                generate_page(from_path, template_path, dest_path, basepath)
         else:
-            generate_pages_recursive(from_path, template_path, dest_dir)
+            generate_pages_recursive(from_path, template_path, dest_dir, basepath)
 
 
 def main():
-    copy_static("static", "public")
-    generate_pages_recursive("content/", "template.html", "public/")
+    copy_static("static", "docs")
+    generate_pages_recursive("content/", "template.html", "docs/", basepath)
 
 
 if __name__ == "__main__":
